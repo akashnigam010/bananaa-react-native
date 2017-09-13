@@ -9,7 +9,7 @@ class Screen extends Component {
   _fbAuth() {
     LoginManager.logInWithReadPermissions(['public_profile', 'email']).then(
       function(result) {
-        console.log('resusssssssssssssssssssslt');
+        alert('resusssssssssssssssssssslt');
         if (result.isCancelled) {
           alert('Login cancelled');
         } else {

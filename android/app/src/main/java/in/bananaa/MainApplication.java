@@ -45,9 +45,9 @@ public class MainApplication extends NavigationApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        FacebookSdk.sdkInitialize(getApplicationContext());
+        //FacebookSdk.sdkInitialize(getApplicationContext());
         // If you want to use AppEventsLogger to log events.
-        AppEventsLogger.activateApp(this);
+       // AppEventsLogger.activateApp(this);
     }
 
     @Override
