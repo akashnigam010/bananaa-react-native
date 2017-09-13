@@ -7,7 +7,7 @@ class CollapsingHeader extends React.Component {
     drawUnderTabBar: true,
     navBarButtonColor: '#ffffff',
     navBarTextColor: '#ffffff',
-    collapsingToolBarImage: require('../../../img/gyro_header.jpg'),
+    collapsingToolBarImage: require('../../../img/gyro_header.png'),
     collapsingToolBarCollapsedColor: '#0f2362',
     navBarBackgroundColor: '#eeeeee'
   };

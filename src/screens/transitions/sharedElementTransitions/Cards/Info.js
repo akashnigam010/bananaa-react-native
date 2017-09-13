@@ -44,7 +44,7 @@ class InfoScreen extends Component {
       </View>
     );
   }
-
+// adding gyro_header instead of beach
   _renderImage() {
     return (
       <SharedElementTransition
@@ -68,7 +68,7 @@ class InfoScreen extends Component {
       >
         <Image
           style={styles.image}
-          source={require('../../../../../img/beach.jpg')}
+          source={require('../../../../../img/gyro_header.png')}
         />
       </SharedElementTransition>
     );

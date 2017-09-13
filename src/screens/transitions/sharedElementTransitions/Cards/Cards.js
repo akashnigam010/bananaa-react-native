@@ -33,7 +33,7 @@ class CardScreen extends React.Component {
       </View>
     );
   }
-
+  // adding gyro_header instead of beach
   _renderImage(index) {
     return (
       <SharedElementTransition
@@ -42,7 +42,7 @@ class CardScreen extends React.Component {
       >
         <Image
           style={styles.image}
-          source={require('../../../../../img/beach.jpg')}
+          source={require('../../../../../img/gyro_header.png')}
         />
       </SharedElementTransition>
     );

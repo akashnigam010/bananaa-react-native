@@ -24,6 +24,8 @@ import CardsInfo from './transitions/sharedElementTransitions/Cards/Info';
 import Masonry from './transitions/sharedElementTransitions/Masonry/Masonry';
 import MasonryItem from './transitions/sharedElementTransitions/Masonry/Item';
 
+import Profiles from './transitions/sharedElementTransitions/Profiles/Profiles';
+
 export function registerScreens() {
   Navigation.registerComponent('example.Types', () => Types);
   Navigation.registerComponent('example.Actions', () => Actions);
@@ -47,6 +49,8 @@ export function registerScreens() {
   Navigation.registerComponent('example.Transitions.SharedElementTransitions.Cards.Info', () => CardsInfo);
   Navigation.registerComponent('example.Transitions.SharedElementTransitions.Masonry', () => Masonry);
   Navigation.registerComponent('example.Transitions.SharedElementTransitions.Masonry.Item', () => MasonryItem);
+
+  Navigation.registerComponent('example.Transitions.SharedElementTransitions.Profiles', () => Profiles);
 }
 
 export function registerScreenVisibilityListener() {
