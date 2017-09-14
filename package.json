@@ -10,6 +10,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.48.2",
     "react-native-animatable": "^1.2.3",
+    "react-native-autocomplete-input": "^3.3.1",
     "react-native-fbsdk": "https://github.com/facebook/react-native-fbsdk.git#master",
     "react-native-navigation": "^1.1.215"
   },

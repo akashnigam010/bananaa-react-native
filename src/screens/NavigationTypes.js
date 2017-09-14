@@ -1,6 +1,7 @@
 import React from 'react';
 import {StyleSheet, ScrollView} from 'react-native';
 import Row from '../components/Row';
+import AutocompleteExample from './Example';
 
 class NavigationTypes extends React.Component {
 
@@ -96,16 +97,17 @@ class NavigationTypes extends React.Component {
 
   render() {
     return (
-      <ScrollView style={styles.container}>
-        <Row title={'Toggle Drawer'} onPress={this.toggleDrawer}/>
-        <Row title={'Push Screen'} testID={'pushScreen'} onPress={this.pushScreen}/>
-        <Row title={'Custom TopBar'} onPress={this.pushCustomTopBarScreen}/>
-        <Row title={'Custom Button'} onPress={this.pushCustomButtonScreen}/>
-        <Row title={'Top Tabs Screen'} onPress={this.pushTopTabsScreen} platform={'android'}/>
-        <Row title={'Show Modal'} onPress={this.showModal}/>
-        <Row title={'Show Lightbox'} onPress={this.showLightBox}/>
-        <Row title={'Show In-App Notification'} onPress={this.showInAppNotification}/>
-      </ScrollView>
+      <AutocompleteExample />
+      //<ScrollView style={styles.container}>
+        // <Row title={'Toggle Drawer'} onPress={this.toggleDrawer}/>
+        // <Row title={'Push Screen'} testID={'pushScreen'} onPress={this.pushScreen}/>
+        // <Row title={'Custom TopBar'} onPress={this.pushCustomTopBarScreen}/>
+        // <Row title={'Custom Button'} onPress={this.pushCustomButtonScreen}/>
+        // <Row title={'Top Tabs Screen'} onPress={this.pushTopTabsScreen} platform={'android'}/>
+        // <Row title={'Show Modal'} onPress={this.showModal}/>
+        // <Row title={'Show Lightbox'} onPress={this.showLightBox}/>
+        // <Row title={'Show In-App Notification'} onPress={this.showInAppNotification}/>
+      //</ScrollView>
     );
   }
 }
